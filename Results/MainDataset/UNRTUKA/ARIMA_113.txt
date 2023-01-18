@@ -1,0 +1,37 @@
+﻿Function evaluations: 99
+Evaluations of gradient: 26
+
+ARIMA_113:
+ARIMA, using observations 1761-2011 (T = 251)
+Estimated using AS 197 (exact ML)
+Dependent variable: (1-L) UNRTUKA
+Standard errors based on Hessian
+
+             coefficient   std. error      z       p-value 
+  ---------------------------------------------------------
+  const       0.00370842   0.00711555    0.5212   0.6022   
+  phi_1       0.791580     0.0549950    14.39     5.67e-047 ***
+  theta_1    −0.785112     0.0809048    −9.704    2.90e-022 ***
+  theta_2    −0.0553954    0.0792004    −0.6994   0.4843   
+  theta_3    −0.159493     0.0828617    −1.925    0.0543    *
+
+Mean dependent var   0.017849   S.D. dependent var   1.375647
+Mean of innovations  0.021204   S.D. of innovations  1.306591
+R-squared            0.771035   Adjusted R-squared   0.768254
+Log-likelihood      −424.9460   Akaike criterion     861.8920
+Schwarz criterion    883.0447   Hannan-Quinn         870.4044
+
+                        Real  Imaginary    Modulus  Frequency
+  -----------------------------------------------------------
+  AR
+    Root  1           1.2633     0.0000     1.2633     0.0000
+  MA
+    Root  1           1.0000     0.0000     1.0000     0.0000
+    Root  2          -0.6737    -2.4116     2.5040    -0.2934
+    Root  3          -0.6737     2.4116     2.5040     0.2934
+  -----------------------------------------------------------
+
+Test for normality of residual -
+  Null hypothesis: error is normally distributed
+  Test statistic: Chi-square(2) = 65.067
+  with p-value = 7.42833e-15

@@ -1,0 +1,30 @@
+﻿Function evaluations: 88
+Evaluations of gradient: 23
+
+Model 4: ARIMA, using observations 1761-2011 (T = 251)
+Estimated using AS 197 (exact ML)
+Dependent variable: (1-L) UNRTUKA
+Standard errors based on Hessian
+
+             coefficient   std. error      z       p-value 
+  ---------------------------------------------------------
+  phi_1       0.792631     0.0549104    14.43     3.12e-047 ***
+  theta_1    −0.785028     0.0809095    −9.703    2.94e-022 ***
+  theta_2    −0.0553467    0.0791928    −0.6989   0.4846   
+  theta_3    −0.159625     0.0828334    −1.927    0.0540    *
+
+Mean dependent var   0.017849   S.D. dependent var   1.375647
+Mean of innovations  0.058917   S.D. of innovations  1.307310
+R-squared            0.771192   Adjusted R-squared   0.768413
+Log-likelihood      −425.0818   Akaike criterion     860.1636
+Schwarz criterion    877.7908   Hannan-Quinn         867.2572
+
+                        Real  Imaginary    Modulus  Frequency
+  -----------------------------------------------------------
+  AR
+    Root  1           1.2616     0.0000     1.2616     0.0000
+  MA
+    Root  1           1.0000     0.0000     1.0000     0.0000
+    Root  2          -0.6734    -2.4107     2.5029    -0.2934
+    Root  3          -0.6734     2.4107     2.5029     0.2934
+  -----------------------------------------------------------
